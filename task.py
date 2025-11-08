@@ -29,8 +29,8 @@ if choice_1 == "left":
                     'Type "Wait" to wait for a Boat or Type "Swim" to swim across.').lower()
     if choice_2 == "wait":
         choice_3 = input("You arrived at the island unharmed.This place feels mysterious. "
-                         "there is a house in the island with 3 Doors, 1 red, 1 Yellow , 1 Red "
-                         "Which door do you want to choose?").lower()
+                         "there is a house in the island with 3 Doors, 1 red, 1 Yellow , 1 Blue "
+                         "Which door do you want to choose?:").lower()
         if choice_3 == "red":
             print("You got locked inside this door,"
                   "There is no way out,"
